@@ -28,10 +28,9 @@ Since it blocks us from using `;`, we can see that the key input is before dicti
 .htpasswd:natas10:$1$XOXwo/z0$K/6kBzbw4cQ5exEWpW5OV0
 .htpasswd:natas10:$1$mRklUuvs$D4FovAtQ6y2mb5vXLAy.P/
 .htpasswd:natas10:$1$SpbdWYWN$qM554rKY7WrlXF5P6ErYN/
-/etc/natas_webpass/natas10:nOpp1igQAkUzaI1GUUjzn1bFVj7xCNzu
+/etc/natas_webpass/natas11:U82q5TCMMQ9xuFoI3dYX61s7OZD9JKoK
 dictionary.txt:African
 dictionary.txt:Africans
-dictionary.txt:Allah
 ```
 
 There's our next password!
