@@ -18,7 +18,7 @@ if($key != "") {
 
 Since it blocks us from using `;`, we can see that the key input is before dictionary.txt and from previous challenges, we know the flag will be in `/etc/natas_webpass/natasXX` so with grep we can check multiple files like `grep -i term file1 file2 file3`, so our key can just be the file we want to check.. term will be what we search for, so with some regex for any line `.*` we can use:
 
-`.* /etc/natas_webpass/natas10`
+`.* /etc/natas_webpass/natas11`
 
 ```
 .htaccess:AuthType Basic
