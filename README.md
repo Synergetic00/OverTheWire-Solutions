@@ -1,0 +1,39 @@
+# OverTheWire: Wargames - Solutions w/ Explainations
+
+This is just how I solved them, to give you pointers how to actually solve each one. Note these might not be the most optimal or desired ways, but they usually are. Don't use these to just cheese the questions, they're designed to help you learn.
+
+## Bandit - Linux Shell
+## Natas - Websites
+## Leviathan - Linux Shell?
+## Krypton - Ciphers
+## Narnia - Shell Exploits
+## Behemoth
+## Utumno
+## Maze
+## Vortex
+## Semtex
+## Manpage
+## Drifter
+
+# Website
+
+## Wargames
+
+The wargames offered by the OverTheWire community can help you to learn and practice security concepts in the form of fun-filled games.
+To find out more about a certain wargame, just visit its page linked from the menu on the left.
+
+If you have a problem, a question or a suggestion, you can join us via chat.
+
+## Suggested order to play the games in
+
+1. Bandit
+2. Leviathan or Natas or Krypton
+3. Narnia
+4. Behemoth
+5. Utumno
+6. Maze
+7. …
+
+## Each shell game has its own SSH port
+
+Information about how to connect to each game using SSH, is provided in the top left corner of the page. Keep in mind that every game uses a different SSH port.
