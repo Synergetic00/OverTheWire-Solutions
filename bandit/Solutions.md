@@ -133,7 +133,22 @@ However, since there is only one file with 1033 bytes, you can use just `find -s
 
 ## Level 6
 
-find / -user bandit7 -group bandit6 -size 33c 2>/dev/null
+```
+bandit6@bandit:~$ find / -user bandit7 -group bandit6 -size 33c 2>/dev/null
+/var/lib/dpkg/info/bandit7.password
+
+bandit6@bandit:~$ cat /var/lib/dpkg/info/bandit7.password
+HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
+```
+
+### Explaination
+
+* `/` this is the root directory
+* `-user bandit7 -group bandit6 -size 33c` user, group and size required
+* `2>/dev/null` discard error responses
+    * `2` code for an error (stderr), while `1` is stdout and `&` is both
+    * `>` redirects the contents of the previous stream to a file
+    * `/dev/null` is the null device on Linux that is like a trashcan
 
 ## Level 7
 
